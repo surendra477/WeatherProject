@@ -14,7 +14,7 @@ app.use(bodyparser.urlencoded({extended: true}));
 app.post("/", function(req, res){
 
   const query = req.body.cityname;
-  const apikey = "e72ca729af228beabd5d20e3b7749713"
+  const apikey = "kfgbsdjkghwugsdmgwej"
   const unit = "metric"
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + query +  "&appid=" + apikey + "&units=" + unit;
 
